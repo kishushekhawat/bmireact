@@ -30,15 +30,15 @@ function Bmi() {
 
 
             //yellow
-        } else if (value > 25) {
+        } else if (value < 25) {
             status = "Healthy weight: " + value
 
             return textColor
-        } else if (value > 30) {
+        } else if (value < 30) {
             status = "Overweight : " + value
             //orange
         }
-        else if (value > 35) {
+        else if (value < 35) {
             status = "Obesity: " + value
             //red
         }
